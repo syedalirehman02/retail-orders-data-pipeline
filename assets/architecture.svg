@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="290" viewBox="0 0 1100 290">
+<rect width="1100" height="290" rx="20" fill="#101828"/>
+<text x="48" y="56" font-family="Arial,sans-serif" font-size="27" fill="white" font-weight="bold">Retail Orders · Batch Data Pipeline</text>
+<text x="48" y="85" font-family="Arial,sans-serif" font-size="14" fill="#a8b4cc">Synthetic data · PySpark · Parquet · DuckDB</text>
+<g font-family="Arial,sans-serif" font-size="16" font-weight="bold" text-anchor="middle">
+<rect x="35" y="121" width="178" height="92" rx="13" fill="#244b81"/><text x="124" y="158" fill="white">Synthetic CSV</text><text x="124" y="181" font-size="12" font-weight="normal" fill="#dde9ff">Order generator</text>
+<rect x="248" y="121" width="178" height="92" rx="13" fill="#315c92"/><text x="337" y="158" fill="white">PySpark</text><text x="337" y="181" font-size="12" font-weight="normal" fill="#dde9ff">Validate + quarantine</text>
+<rect x="461" y="121" width="178" height="92" rx="13" fill="#24675b"/><text x="550" y="158" fill="white">Silver Parquet</text><text x="550" y="181" font-size="12" font-weight="normal" fill="#daf8f0">Clean order data</text>
+<rect x="674" y="121" width="178" height="92" rx="13" fill="#24675b"/><text x="763" y="158" fill="white">Gold Parquet</text><text x="763" y="181" font-size="12" font-weight="normal" fill="#daf8f0">Daily sales metrics</text>
+<rect x="887" y="121" width="178" height="92" rx="13" fill="#73519a"/><text x="976" y="158" fill="white">DuckDB SQL</text><text x="976" y="181" font-size="12" font-weight="normal" fill="#eee2ff">Regional reporting</text>
+</g>
+<g fill="none" stroke="#a8b4cc" stroke-width="3"><path d="M213 167h30m-9 -6l9 6-9 6"/><path d="M426 167h30m-9 -6l9 6-9 6"/><path d="M639 167h30m-9 -6l9 6-9 6"/><path d="M852 167h30m-9 -6l9 6-9 6"/></g>
+<text x="48" y="259" fill="#a8b4cc" font-family="Arial,sans-serif" font-size="13">Portfolio demonstration only · No production client data</text>
+</svg>
