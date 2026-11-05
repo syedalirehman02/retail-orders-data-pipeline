@@ -1,0 +1,22 @@
+TITLE
+End-to-End Data Engineering Demo | PySpark, SQL, Parquet & DuckDB
+
+DESCRIPTION
+A portfolio demonstration of batch ingestion, Spark transformations, validation, Silver/Gold Parquet layers, and SQL reporting on synthetic retail order data. Includes architecture diagram, code, tests and GitHub Actions. Not client or production work.
+
+LINK
+https://github.com/syedalirehman02/retail-orders-data-pipeline
+
+LINKEDIN POST
+I built an end-to-end data engineering portfolio demo using PySpark, SQL, Parquet, and DuckDB.
+
+Pipeline: Synthetic CSV → PySpark validation and transformation → Silver/Gold Parquet layers → DuckDB SQL reporting.
+
+The main focus is engineering fundamentals: explicit schemas, duplicate detection, rejected-record quarantine, row-count reconciliation, and analytical reporting.
+
+Source code and architecture:
+https://github.com/syedalirehman02/retail-orders-data-pipeline
+
+This is a learning/portfolio demonstration using synthetic data, not a client or production system.
+
+#DataEngineering #PySpark #SQL #ETL #DataPipelines
